@@ -1,0 +1,37 @@
+# Python environments and generated files
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/secrets.dev.yaml
+
+# Version control and editor files
+.git/
+.gitignore
+.vscode/
+.vs/
+.idea/
+.DS_Store
+
+# Node dependencies and generated output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+**/npm-debug.log
+
+# Local-only test scripts (keep these available on the host)
+testing_groq.py
+testing_hugging.py
+testing_open_router.py
+
+# Local data/build artifacts
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,20 @@
+python-dotenv
+langgraph
+langchain
+langchain-core
+langchain-groq
+langchain-ollama
+langsmith
+pydantic
+numpy
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# LangGraph PostgreSQL persistence
+langgraph-checkpoint-postgres
+psycopg[binary,pool]
+sqlalchemy
+
+redis
